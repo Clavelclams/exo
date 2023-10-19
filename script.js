@@ -8,6 +8,14 @@ alert('bonjour ' + nom + ' voici votre message ' + '"' + message + '"' );
 */
 
 // exercice1.js 
+/*
 alert('Coucou !');
 console.log('Ah que Coucou !');
 document.write('Coucou beuh !');
+*/
+// exercice2.js
+var nom = prompt('Saisissez votre nom');
+var prénom = prompt('Saisissez votre prénom');
+alert('bonjour ' + nom + ' ' + prénom);
+var nombre1 = 0 + prompt('Saisissez la somme du premier produit')
+var nombre2 =  prompt('Saisissez la somme du deuxieme produit')
