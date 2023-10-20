@@ -17,5 +17,8 @@ document.write('Coucou beuh !');
 var nom = prompt('Saisissez votre nom');
 var prénom = prompt('Saisissez votre prénom');
 alert('bonjour ' + nom + ' ' + prénom);
-var nombre1 = 0 + prompt('Saisissez la somme du premier produit')
-var nombre2 =  prompt('Saisissez la somme du deuxieme produit')
+var A = parseInt (prompt('Saisissez la somme du premier produit'));
+var B = parseInt (prompt('Saisissez la somme du deuxieme produit'));
+// var resultat = (nombre1 + nombre2);
+// alert(resultat) 
+alert ('votre résultat est :' + (B+A));
