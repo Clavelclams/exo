@@ -24,7 +24,6 @@ var B = parseInt (prompt('Saisissez la somme du deuxieme produit'));
 // var resultat = (nombre1 + nombre2);
 // alert(resultat) 
 window.alert('votre résultat est :' + (B+A));
-*/
 // exercice2 part 3 
 var C = parseInt (prompt('Quel température en degrés Celsius fait-il'));
 if (!isNaN(C)) {
@@ -33,3 +32,16 @@ if (!isNaN(C)) {
 } else {
     window.alert('veuillez entrer une valeur numerique correct')
 }
+*/
+// exercice 3
+var a = '100';
+var b = 100 ;
+var c = 1.00;
+var d = true ;
+window.alert('Ceci est une chaîne de caractères : ' + a );
+b--;
+window.alert(b);
+c = c + parseFloat(a);
+window.alert(c);
+d = !d;
+window.alert(d);
