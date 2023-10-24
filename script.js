@@ -13,12 +13,23 @@ alert('Coucou !');
 console.log('Ah que Coucou !');
 document.write('Coucou beuh !');
 */
-// exercice2.js
+/*
+// exercice2.js part 1
 var nom = prompt('Saisissez votre nom');
 var prénom = prompt('Saisissez votre prénom');
 alert('bonjour ' + nom + ' ' + prénom);
+// exercice2 part 2
 var A = parseInt (prompt('Saisissez la somme du premier produit'));
 var B = parseInt (prompt('Saisissez la somme du deuxieme produit'));
 // var resultat = (nombre1 + nombre2);
 // alert(resultat) 
-alert ('votre résultat est :' + (B+A));
+window.alert('votre résultat est :' + (B+A));
+*/
+// exercice2 part 3 
+var C = parseInt (prompt('Quel température en degrés Celsius fait-il'));
+if (!isNaN(C)) {
+    var F = (C*9/5)+32;
+    window.alert('Il fait '+F+' en degrés Fahrenheit');
+} else {
+    window.alert('veuillez entrer une valeur numerique correct')
+}
